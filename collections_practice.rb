@@ -46,3 +46,8 @@ def add_s(each_word)
     end
   end
 end
+
+def add_s(array)
+    array.each_with_index.collect{|word| i != 2 word << "s"}
+
+end
