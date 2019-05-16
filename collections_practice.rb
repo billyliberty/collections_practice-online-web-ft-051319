@@ -37,15 +37,7 @@ def sum_array(numbers)
   numbers.reduce{ |sum, num| sum + num}
 end
 
-def add_s(each_word)
-  each_word.map do |word|
-    if each_word[1] == word
-      word
-    else
-      word + "s"
-    end
-  end
-end
+
 
 def add_s(array)
     array.each_with_index.collect{|word| i != 2 word << "s"}
